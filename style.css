@@ -83,8 +83,12 @@ a:visited {
   position: absolute;
   right: 0;
   margin: 10px;
+  transition: color .2s ease-in;
 }
 
+span.workout__edit:hover, span.workout__delete:hover {
+  color: var(--color-brand--1)!important;
+}
 .workout__edit {
   right: 40px;
 }
